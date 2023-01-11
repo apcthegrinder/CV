@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Details</title>
+</head>
+<body>
+    <p> Phone No: 9979890079</p>
+    <p> Email Address: chandwaniarya@gmail.com</p>
+    <p> Address: Fictional Address blah blah blah blah</p>
+    <p>Hey, Lets Connect!</p>
+
+     <form action="mailto:chandwaniarya@gmail.com" method="post" enctype="text/plain" >
+        <!-- <label for="name">Enter your Name:</label> -->
+        <label for="abcName">Name: </label>
+        <input type="text" name="Name" id="abcName">
+        <br><br>
+        <!-- <label for="number">Enter your Contact Number:</label> -->
+        Enter your Contact Number: <input type="tel" placeholder="Type your PhoneNumber" name="Phone Number">
+        <br><br>
+        Enter your Email address: <input type="email" name="Email Add">
+        <br><br>
+        Enter your DOB: <input type="date">
+        <br><br> 
+        <!-- Enter your rate: <input type="range">
+        <br><br> -->
+        Any Message you got for me: <br> <textarea name="msg"  cols="30" rows="10" name="Message" ></textarea>
+        <br><br>
+        <br>
+        Gender: Male<input type="radio" name="Gender" id=""> FeMale<input type="radio" name="Gender" id="">
+        <br>
+        <label for="year">Year</label>
+       <select name="Year" id="year">
+        <option value="ug">Undergrad</option>
+        <option value="pg">Postgrad</option>
+       </select>
+       <br><br>
+        <input type="submit" value="Submit" >
+        <input type="reset" value="Reset Now">
+        <!-- Name wo naam hai jis naam se wo backend me submit hoga -->
+        
+     </form>
+     
+</body>
+</html>
